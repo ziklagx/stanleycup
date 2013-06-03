@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -8,57 +7,35 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/main.css" rel="stylesheet" media="screen">
   </head>
-  
-
   <body>
-<section id="wrap">
+<article><p>
+</p>
+
+</article>
+
+    <section id="wrap">
       <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="navbar-inner">
           <div class="container">
             <a class="brand" href="#">Lord Stanley's Cup</a>
             <div class="nav-collapse collapse">
               <ul class="nav">
-                <li><a href="home.html">Home</a></li>
-                <li class="active"><a href="winners.html">Winners</a></li>
-                <li><a href="keeper.html">Keeper of the Cup</a></li>
-                <li><a href="about.html">About</a></li>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#Winners">Winners</a></li>
+                <li><a href="#Keeper">Keeper of the Cup</a></li>
+                <li><a href="#About">About</a></li>
               </ul>
             </div><!--/.nav-collapse -->
           </div>
         </div>
       </nav>
 
-
       <section id="content" class="row">
         <div id="hero" class="span4">
           <img src="img/stanleycup-hero.jpeg"/>
         </div>
-        <article id="listofwinners" class="span8">
-            <h2>Stanley Cup Winning Teams</h2>
-          	
-        </article>
-
-      </section>
-      <div id="push"></div>
-    </section>
-    <ul>
-    	<li>Ottawa Senators</li>
-    	<li>New York Rangers</li>
-    	<li>Boston Bruins </li>
-    	<li>Montreal Canadiens </li>
-    	<li>Toronto Maple Leafs </li>
-    	<li>Chicago Black Hawks </li>
-    	<li>Detroit Red Wings</li>
-    	<li>Philadelphia Flyers</li>
-    	<li>New York Islanders</li>
-    	<li>Edmonton Oilers</li>
-    	<li>Pittsburgh Penguins</li>
-    	<li>New Jersey Devils</li>
-    	<li>Colorado Avelanch</li>
-    </ul>
-
-
-    <footer class="row centered">
+        <article class="span8">
+        	<footer class="row centered">
       <section id="NHL_Links" class="span3 offset3">
         <ul>
          <li><a href="http:\\canucks.nhl.com">Vancouver Canucks</a></li>
@@ -95,16 +72,12 @@
       </section>
       <section class="span3">
          <ul>
-         <li><a href="http:\\www.hockeyhalloffame.com/">Hockey Hall of Fame</a></li>
-          <li><a href="http:\\hockeycanada.ca/en-ca/">Hockey Canada</a></li>
-           <li><a href="http:\\www.usahockey.com/">USA Hockey</a></li>
+         <li><a href="http:\\canucks.nhl.com">Hockey Hall of Fame</a></li>
         </ul>
       </section>
       <section class="span3">
         <ul>
           <li>Luke Thomas</li>
-          <li><a href="http:\\www.gmail.com/">Email</a></li>
-
         </ul>
       </section>
     </footer>
