@@ -19,9 +19,13 @@
       }
 
       /* Set the fixed height of the footer here */
-      #push,
-      footer {
+      #push {
+
         height: 60px;
+      }
+
+      footer {
+        height: 600px;
       }
       footer {
         background-color: #333;
@@ -37,3 +41,20 @@
           padding-right: 20px;
         }
       }
+
+
+      table {
+  width: 100%;
+  border: 1px solid #cef;
+  text-align: left; }
+th {
+  font-weight: bold;
+  background-color: #acf;
+  border-bottom: 1px solid #cef; }
+td,th {
+  padding: 4px 5px; }
+
+  .odd {
+  background-color: #def; }
+.odd td {
+  border-bottom: 1px solid #cef; }
