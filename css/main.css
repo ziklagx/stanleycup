@@ -4,6 +4,10 @@
         /* The html and body elements cannot have any padding or margin. */
       }
 
+      a {
+        color: inherit;
+      }
+
       #content{
         margin-top: 50px;
       }
@@ -30,6 +34,8 @@
         color: #fff;
         font-size: 0.7em;
       }
+
+
 
       footer ul{
         list-style: none;

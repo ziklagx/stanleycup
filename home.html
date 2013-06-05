@@ -7,9 +7,11 @@
     <link href="css/gallery.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="css/gallery.theme.css">
     <link rel="stylesheet" href="css/main.css" media="screen">
-
+    <link rel="stylesheet" href="css/vendor/normalize.css">
+   
   </head>
   <body>
+    <div class="container">
 
     <section id="wrap">
       <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -31,9 +33,60 @@
       <section id="content" class="row">
 
 
-        <article class="span8">
+<div id="myCarousel" class="carousel slide">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="img/hero5.jpg" alt="">
+      <div class="carousel-caption">
+        <h4>Takeoff</h4>
+        <p>In one of hockey's most famous pictures, Bobby Orr celebrates a Stanley Cup winning goal.</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/hero1.jpg" alt="">
+      <div class="carousel-caption">
+        <h4>The Great one</h4>
+        <p>Wayne Gretzky of the Edmonton Oilers lifts the Cup, celebrating one of four league championships in Edmonton.</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/hero2.jpg" alt="">
+      <div class="carousel-caption">
+        <h4>The Other Bobby</h4>
+        <p>A toothless Bobby Clarke celebrates a Cup win with the Philadelphia Flyers. This was in the days before the lift over the head became common.</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/hero3.jpg" alt="">
+      <div class="carousel-caption">
+        <h4>First Kiss</h4>
+        <p>The first kiss after winning it always goes to the Cup. It is considered bad luck to touch the Cup unless you win it.</p>
+      </div>
+    </div>
+     <div class="item">
+      <img src="img/hero4.jpg" alt="">
+      <div class="carousel-caption">
+        <h4>Captain my Captain</h4>
+        <p>The Captain of the winning team is first to touch the Cup.</p>
+      </div>
+    </div>
+  </div>
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+
+
+        <article>
             <h2>The History of the Cup</h2>
-            <p>The Stanley Cup is the championship trophy awarded annually to the National Hockey League (NHL) playoff winner after the conclusion of the Stanley Cup Finals. Originally commissioned in 1892 as the Dominion Hockey Challenge Cup, the trophy is named for Lord Stanley of Preston, then–Governor General of Canada, who awarded it to Canada's top-ranking amateur ice hockey club, which the entire Stanley family supported, with the sons and daughters playing and promoting the game. The first Cup was awarded in 1893 to Montreal HC. In 1915, the two professional ice hockey organizations, the National Hockey Association (NHA) and the Pacific Coast Hockey Association (PCHA), reached a gentlemen's agreement in which their respective champions would face each other for the Stanley Cup. After a series of league mergers and folds, the Stanley "Presentation Cup" was established as the de facto championship trophy of the NHL in 1926 and then the de jure NHL championship prize in 1947.
+
+            <p>The Stanley Cup is the championship trophy awarded annually to the National Hockey League (NHL) playoff winner after the conclusion of the Stanley Cup Finals. Originally commissioned in 1892 as the Dominion Hockey Challenge Cup, the trophy is named for Lord Stanley of Preston, then-Governor General of Canada, who awarded it to Canada's top-ranking amateur ice hockey club, which the entire Stanley family supported, with the sons and daughters playing and promoting the game. The first Cup was awarded in 1893 to Montreal HC. In 1915, the two professional ice hockey organizations, the National Hockey Association (NHA) and the Pacific Coast Hockey Association (PCHA), reached a gentlemen's agreement in which their respective champions would face each other for the Stanley Cup. After a series of league mergers and folds, the Stanley "Presentation Cup" was established as the de facto championship trophy of the NHL in 1926 and then the de jure NHL championship prize in 1947.
             </p>
             <p>
 There are actually three Stanley Cups: the original bowl of the "Dominion Hockey Challenge Cup", the authenticated "Presentation Cup", and the "Replica Cup" at the Hall of Fame. The NHL has maintained effective control over both the trophy itself and its associated trademarks. Nevertheless, the NHL does not actually own the trophy, but instead uses it by agreement with the two Trustees of the Cup. The NHL has registered trademarks associated with the name and likeness of the Stanley Cup, although the league's right to outright own trademarks associated with a trophy it does not own has been disputed by some legal experts.
@@ -45,15 +98,18 @@ The original bowl was made of silver and is 18.5 centimetres (7.28 inches) in he
             <p>
 Since the 1914-15 season, the Cup has been won a combined 94 times by 18 active NHL teams and five defunct teams. Prior to that, the challenge cup was held by nine different teams. The Montreal Canadiens have won the Cup a record 24 times and are currently the last Canadian-based team in the NHL to win the cup after winning it in 1993. The Stanley Cup was not awarded in 1919 because of a Spanish flu epidemic, and in 2005, as a consequence of the NHL lockout.
           </p>
-        
         </article>
 
       </section>
       <div id="push"></div>
     </section>
 
-    <footer class="row centered">
-      <section id="NHL_Links" class="span3 offset3">
+  </div>
+
+
+    <footer>
+      <div class="container">
+      <section id="NHL_Links" class="span3">
         <ul>
           <li><a href="http:\\canucks.nhl.com">Vancouver Canucks</a></li>
           <li><a href="http:\\flames.nhl.com">Calgary Flames</a></li>
@@ -70,6 +126,11 @@ Since the 1914-15 season, the Cup has been won a combined 94 times by 18 active 
           <li><a href="http:\\bluejackets.nhl.com">Columbus Blue Jackets</a></li>
           <li><a href="http:\\blues.nhl.com">St.Louis Blues</a></li>
           <li><a href="http:\\penguins.nhl.com">Pittsburgh Penguins</a></li>
+
+        </ul>
+      </section>
+      <section class="span3">
+         <ul>
           <li><a href="http:\\stars.nhl.com">Dallas Stars</a></li>
           <li><a href="http:\\wild.nhl.com">Minnesota Wild</a></li>
           <li><a href="http:\\redwings.nhl.com">Detroit Redwings</a></li>
@@ -88,24 +149,26 @@ Since the 1914-15 season, the Cup has been won a combined 94 times by 18 active 
         </ul>
       </section>
       <section class="span3">
-         <ul>
-         <li><a href="http:\\www.hockeyhalloffame.com/">Hockey Hall of Fame</a></li>
+        <ul>
+           <li><a href="http:\\www.hockeyhalloffame.com/">Hockey Hall of Fame</a></li>
           <li><a href="http:\\hockeycanada.ca/en-ca/">Hockey Canada</a></li>
            <li><a href="http:\\www.usahockey.com/">USA Hockey</a></li>
-        </ul>
-      </section>
-      <section class="span3">
-        <ul>
+           <li></li>
           <li>Luke Thomas</li>
           <li><a href="http:\\www.gmail.com/">Email</a></li>
 
         </ul>
       </section>
+    </div>
     </footer>
+
 
 
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/home.js"></script>
+    <script src="js/prefixfree.min.js"></script>
+     <script src="js/bootstrap-carousel.js"></script>
+
   </body>
 </html>
