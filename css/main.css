@@ -2,7 +2,30 @@
       body {
         height: 100%;
         /* The html and body elements cannot have any padding or margin. */
+
+        
       }
+
+
+      #backgrounder {
+   background: url("file:///Users/ithomas/Dev/webdesign/stanleycup/css/../img/StanleyCup_BG.jpeg") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+
+    left: 0;
+    opacity: 0.1;
+    position: absolute;
+    top: 20px;
+
+    width: 960px;
+    height: 1600px;
+
+      transform:rotate(-10deg);
+      -ms-transform:rotate(-10deg); /* IE 9 */
+      -webkit-transform:rotate(-10deg); /* Safari and Chrome */
+      }
+
+
 
       a {
         color: inherit;
@@ -10,6 +33,11 @@
 
       #content{
         margin-top: 50px;
+        background-color:#fff;
+        opacity:1;
+        min-height: 1000px;
+      
+
       }
 
       /* Wrapper for page content to push down footer */
@@ -33,6 +61,7 @@
         background-color: #333;
         color: #fff;
         font-size: 0.7em;
+        padding-top: 20px;
       }
 
 
@@ -67,3 +96,8 @@ td,th {
   background-color: #def; }
 .odd td {
   border-bottom: 1px solid #cef; }
+
+
+  #history {
+    min-height: 1000px;
+  }
